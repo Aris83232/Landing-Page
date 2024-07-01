@@ -17,12 +17,13 @@ body {
 
 .header img {
     padding: 1%;
+    height: 50px;
 }
 
 ul {
     list-style: none;
     display: flex;
-    gap: 8px;
+    gap: 10px;
     padding: 1%;
     font-weight: 100;
 }
@@ -34,34 +35,46 @@ a {
 
 .hero-section {
     display: flex;
+    padding: 8% 10% 8% 10%;
     background-color: #003354;
     color: #f9faf8;
-    padding: 8% 10% 8% 10%;
+}
+
+.hero-items {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    max-width: 1000px;
+    height: 250px;
+    margin: auto;
 }
 
 .hero-section h1 {
     color: #f9faf8;
+    margin-bottom: 10px;
 }
 
 .hero-section p {
-    color: #e5e7eb;
-    width: 50%;
-    text-align: justify;
+    margin-top: 0;
 }
 
+
 .hero-section img {
-    width: 40%;
+    object-fit: cover;
+    object-position: 100% 90%;
+    width: 50%;
     background-color: #96989b;
-    margin: 1%;
-    text-align: center;
+    flex-shrink: 0;
 }
 
 .hero-section button {
     background-color: #FFDB58;
     color: #800000;
     font-weight: bold;
+    width: 20%;
     padding: 8px 4px 8px 4px;
     border: none;
+    border-radius: 8px;
 }
 
 .nakama-section {
@@ -83,6 +96,7 @@ a {
     border: 2px solid #800000;
     height: 200px;
     width: auto;
+    border-radius: 8px;
 }
 
 .quote-section {
@@ -107,6 +121,7 @@ a {
     background-color: #003354;
     margin: 5% 10% 5% 10%;
     padding: 2% 5% 2% 5%;
+    border-radius: 8px;
 }
 
 .join-section button {
@@ -115,6 +130,7 @@ a {
     color: #800000;
     background-color: #FFDB58;
     border: 1px solid #800000;
+    border-radius: 8px;
 }
 
 .join-section h4{
@@ -122,7 +138,7 @@ a {
 }
 
 .join-section p{
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .footer {
