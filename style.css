@@ -3,23 +3,27 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
+    background-color: #F9E7B8;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
 
-    background-color: #1f2937;
+    background-color: #003354;
     color: #f9faf8;
-    margin: 0;
     font-weight: bold;
+}
+
+.header img {
+    padding: 1%;
 }
 
 ul {
     list-style: none;
     display: flex;
     gap: 8px;
-    padding: 8px;
+    padding: 1%;
     font-weight: 100;
 }
 
@@ -28,38 +32,44 @@ a {
     color: #e5e7eb;    
 }
 
-.section-one {
+.hero-section {
     display: flex;
-    background-color: #1f2937;
+    background-color: #003354;
     color: #f9faf8;
-
+    padding: 8% 10% 8% 10%;
 }
 
-.section-one h1 {
+.hero-section h1 {
     color: #f9faf8;
 }
 
-.section-one p {
+.hero-section p {
     color: #e5e7eb;
+    width: 50%;
+    text-align: justify;
 }
 
-.section-one img {
-    font-size: 24px;
+.hero-section img {
+    width: 40%;
     background-color: #96989b;
+    margin: 1%;
+    text-align: center;
 }
 
-.section-one button {
-    background-color: #3882f6;
-    color: #f9faf8;
+.hero-section button {
+    background-color: #FFDB58;
+    color: #800000;
     font-weight: bold;
     padding: 8px 4px 8px 4px;
     border: none;
 }
 
-.section-two {
+.nakama-section {
     text-align: center;
+    padding: 8% 10% 8% 10%;
+    background-color: #F9E7B8;
 }
-.section-two h2 {
+.nakama-section h2 {
     color: #1f2937;
 }
 
@@ -69,26 +79,50 @@ a {
     gap: 52px;
 }
 
-.section-two img {
-    border: 2px solid #3882f6;
-    width: 100px;
-    height: 10px;
+.nakama-section img {
+    border: 2px solid #800000;
+    height: 200px;
+    width: auto;
 }
 
-.section-three {
-    background-color: #e5e7eb;
+.quote-section {
+    background-color: #FFDB58;
+    padding: 8% 10% 8% 10%;;
 }
-.section-three p{
+.quote-section p{
     font-weight: 36px;
     font-style: italic;
-    color: #1f2937;
+    color: #800000;
 }
-.section-three h4 {
-    color: #1f2937;
+.quote-section h4 {
+    color: #800000;
 }
 
-.section-four {
-    background-color: #3882f6;
+.join-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #e5e7eb;
+    background-color: #003354;
+    margin: 5% 10% 5% 10%;
+    padding: 2% 5% 2% 5%;
+}
+
+.join-section button {
+    height: 25px;
+    font-weight: bold;
+    color: #800000;
+    background-color: #FFDB58;
+    border: 1px solid #800000;
+}
+
+.join-section h4{
+    font-size: 16px;
+}
+
+.join-section p{
+    font-size: 12px;
 }
 
 .footer {
@@ -97,6 +131,8 @@ a {
     text-align: center;
     align-items: center;
     justify-content: center;
+
+    padding: 2%;
 }
 
 
