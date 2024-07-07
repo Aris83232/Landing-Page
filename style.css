@@ -1,37 +1,52 @@
-body {
-    font-family: sans-serif;
-    flex-direction: column;
-    justify-content: space-between;
+* {
     margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: sans-serif;
     background-color: #F9E7B8;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-
+header {
     background-color: #003354;
     color: #f9faf8;
     font-weight: bold;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
-.header img {
-    padding: 1%;
+header img {
     height: 50px;
 }
 
-ul {
+header ul {
+    width: 100%;
     list-style: none;
     display: flex;
-    gap: 10px;
-    padding: 1%;
-    font-weight: 100;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
 }
 
-a {
+header a {
+    height: 100%;
+    padding: 0;
     text-decoration: none;
+    display: flex;
+    align-items: center;
     color: #e5e7eb;    
 }
+
+header a:hover {
+    background-color: #19222e;
+}
+
+header li:first-child{
+    margin-right: auto;
+}
+
 
 .hero-section {
     display: flex;
@@ -40,7 +55,7 @@ a {
     color: #f9faf8;
 }
 
-.hero-items {
+.hero-section div {
     display: flex;
     flex-direction: column;
     align-items:flex-start;
@@ -72,6 +87,7 @@ a {
     color: #800000;
     font-weight: bold;
     width: 20%;
+    margin-top: auto;
     padding: 8px 4px 8px 4px;
     border: none;
     border-radius: 8px;
@@ -84,6 +100,7 @@ a {
 }
 .nakama-section h2 {
     color: #1f2937;
+    margin-bottom: 20px;
 }
 
 .imgs {
@@ -125,11 +142,13 @@ a {
 }
 
 .join-section button {
-    height: 25px;
-    font-weight: bold;
-    color: #800000;
     background-color: #FFDB58;
-    border: 1px solid #800000;
+    color: #800000;
+    font-weight: bold;
+    width: 10%;
+    margin-top: auto;
+    padding: 8px 4px 8px 4px;
+    border: none;
     border-radius: 8px;
 }
 
